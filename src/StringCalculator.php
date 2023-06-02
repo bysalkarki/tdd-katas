@@ -13,7 +13,7 @@ class StringCalculator
     /**
      * @var string
      */
-    private string $delimiter = ",|n";
+    private string $delimiter = ",|\n";
 
     /**
      * @var string

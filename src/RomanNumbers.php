@@ -31,6 +31,6 @@ class RomanNumbers
                 $result .= $numeral;
             }
         }
-        print_r($result) ;
+       return $result ;
     }
 }
