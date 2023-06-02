@@ -38,4 +38,15 @@ class FizzBuzzTest extends TestCase
         }
     }
 
+    /**
+     * @return void
+     * @test
+     */
+    public function it_prints_original_for_not_multiples_of_three_or_five()
+    {
+        foreach ([2, 4, 97, 113, 17] as $num) {
+            $this->assertEquals($num, FizzBuzz::convert($num));
+        }
+    }
+
 }
